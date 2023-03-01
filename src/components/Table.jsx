@@ -20,13 +20,13 @@ function Table({ rows, handleDelete }) {
                             <td>
                             <button type="button"
                                     className ="btn btn-outline-dark mx-2">
-                                        Редактировать
+                                        ✎
                             </button>
                     
                             <button type="button"
                                     className ="btn btn-outline-danger"
                                     onClick={() => handleDelete(row.id)}>
-                                        Удалить
+                                        ✘ 
                             </button>
                             </td>
                         </tr>

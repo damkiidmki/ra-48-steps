@@ -68,7 +68,7 @@ function TableInput({ currentRow, handleAdd }) {
                         />
                     </div>
                     <div className="col-2 d-flex align-content-end flex-wrap">
-                        <button type="submit" class="btn btn-success">OK</button>
+                        <button type="submit" className="btn btn-success">OK</button>
                     </div>
             </div>
             </div>
